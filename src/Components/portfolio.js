@@ -1,8 +1,12 @@
 import React from "react";
-import navin from "../Images/Navin.jpg";
-
+import cloud from "../Images/Cloud.png";
+import ecommerce from "../Images/ecommerce.png"
+import education from "../Images/education.png";
+import portfolio from "../Images/Portfolio.png"
+import skillspark from "../Images/Skillspark.png";
+import weatherapp from "../Images/WeatherApp.png"
 export default function Portfolio() {
-    return(
+    return (
         <div className="main-content">
             <section className="portfolio section">
                 <div className="container">
@@ -20,57 +24,54 @@ export default function Portfolio() {
                         <div className="portfolio-item padd-15">
                             <div className="portfolio-item-inner shadow-dark">
                                 <div className="portfolio-img">
-                                    <img src={navin} alt=""></img>
+                                    <a href="https://www.github.com/navin-sharma12">
+                                        <img src={cloud} alt=""></img>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div className="portfolio-item padd-15">
                             <div className="portfolio-item-inner shadow-dark">
                                 <div className="portfolio-img">
-                                    <img src={navin} alt=""></img>
+                                    <a href="https://www.github.com/navin-sharma12">
+                                        <img src={ecommerce} alt=""></img>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div className="portfolio-item padd-15">
                             <div className="portfolio-item-inner shadow-dark">
                                 <div className="portfolio-img">
-                                    <img src={navin} alt=""></img>
+                                    <a href="https://www.github.com/navin-sharma12">
+                                        <img src={education} alt=""></img>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div className="portfolio-item padd-15">
                             <div className="portfolio-item-inner shadow-dark">
                                 <div className="portfolio-img">
-                                    <img src={navin} alt=""></img>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="portfolio-item padd-15">
-                            <div className="portfolio-item-inner shadow-dark">
-                                <div className="portfolio-img">
-                                    <img src={navin} alt=""></img>
+                                    <a href="https://www.github.com/navin-sharma12">
+                                        <img src={portfolio} alt=""></img>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div className="portfolio-item padd-15">
                             <div className="portfolio-item-inner shadow-dark">
                                 <div className="portfolio-img">
-                                    <img src={navin} alt=""></img>
+                                    <a href="https://www.github.com/navin-sharma12">
+                                        <img src={skillspark} alt=""></img>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div className="portfolio-item padd-15">
                             <div className="portfolio-item-inner shadow-dark">
                                 <div className="portfolio-img">
-                                    <img src={navin} alt=""></img>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="portfolio-item padd-15">
-                            <div className="portfolio-item-inner shadow-dark">
-                                <div className="portfolio-img">
-                                    <img src={navin} alt=""></img>
+                                    <a href="https://www.github.com/navin-sharma12">
+                                        <img src={weatherapp} alt=""></img>
+                                    </a>
                                 </div>
                             </div>
                         </div>

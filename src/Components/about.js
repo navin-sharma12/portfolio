@@ -15,24 +15,13 @@ export default function About() {
                             <div className="row">
                                 <div className="about-text padd-15">
                                     <h3>I am Navin Sharma a <span>Full Stack Software Engineer</span></h3>
-                                    <p>A highly skilled developer with extensive experience in software development,
-                                        I am dedicated to delivering innovative solutions that streamline processes,
-                                        enhance productivity, and drive business success. With a strong foundation in programming languages such as Java,
-                                        JavaScript, ReactJS, NodeJS, Cloud and SQL, I have developed a deep understanding of software engineering
-                                        principles and a proven ability to create robust, scalable applications. Whether working independently or as
-                                        part of a team, I am committed to leveraging my skills and experience to develop cutting-edge solutions
-                                        that exceed expectations and deliver measurable results.
+                                    <p>A highly skilled developer with extensive software development experience,
+                                        I deliver innovative solutions that enhance productivity and drive business success.
+                                        Proficient in Java, JavaScript, ReactJS, NodeJS, Cloud,
+                                        and SQL, I excel in creating robust, scalable applications. Committed to
+                                        leveraging my skills and experience, I develop cutting-edge solutions that
+                                        exceed expectations and achieve measurable results
                                     </p>
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="personal-info padd-15">
-                                    <div className="row">
-                                        <div className="buttons padd-15">
-                                            <a href="/Resume/Resume.pdf" download="Navin_Sharma_Resume.pdf" className="btn">Download Resume</a>
-                                            <a href="#contact" className="btn hire-me">Hire Me</a>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                             <div className="row">

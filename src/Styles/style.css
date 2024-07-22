@@ -271,6 +271,7 @@ ul {
 }
 
 .home .home-info {
+    margin-top: 10%;
     flex: 0 0 60%;
     max-width: 60%;
 }
@@ -316,7 +317,7 @@ h3.my-profession {
     height: 80px;
     width: 80px;
     right: -10px;
-    bottom: 20px;
+    bottom: -60px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
 }
@@ -336,6 +337,20 @@ h3.my-profession {
     height: 450px;
     margin: auto;
     border-radius: 5px;
+}
+
+.home .home-info .personal-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.home .home-info .personal-info .buttons {
+    margin-top: 30px;
+}
+
+.home .home-info .personal-info .buttons .btn {
+    margin-right: 15px;
+    margin-top: 10px;
 }
 
 /* About */
@@ -365,89 +380,6 @@ h3.my-profession {
     font-size: 16px;
     line-height: 25px;
     color: var(--text-black-700);
-}
-
-.about .about-content .personal-info {
-    flex: 0 0 60%;
-    max-width: 60%;
-    margin-top: 40px;
-}
-
-.about .about-content .personal-info .info-item {
-    flex: 0 0 50%;
-    max-width: 50%;
-}
-
-.about .about-content .personal-info .info-item p {
-    font-weight: 600;
-    padding: 10px 0;
-    font-size: 16px;
-    color: var(--text-black-900);
-    border-bottom: 1px solid var(--bg-black-50)
-}
-
-.about .about-content .personal-info .info-item p span {
-    font-weight: 400;
-    color: var(--text-black-700);
-    margin-left: 4px;
-    display: inline-block;
-}
-
-.about .about-content .personal-info .buttons {
-    margin-top: 30px;
-
-}
-
-.about .about-content .personal-info .buttons .btn {
-    margin-right: 15px;
-    margin-top: 10px;
-}
-
-.about .about-content .skills {
-    flex: 0 0 40%;
-    max-width: 40%;
-    margin-top: 40px;
-}
-
-.about .about-content .skills .skill-item {
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-bottom: 25px;
-}
-
-
-.about .about-content .skills .skill-item h5 {
-    line-height: 40px;
-    font-weight: 600;
-    font-size: 16px;
-    color: var(--text-black-900);
-    text-transform: capitalize;
-}
-
-.about .about-content .skills .skill-item .progress {
-    background-color: var(--bg-black-50);
-    height: 7px;
-    border-radius: 4px;
-    width: 100%;
-    position: relative;
-}
-
-.about .about-content .skills .skill-item .progress .progress-in {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    border-radius: 4px;
-    background-color: var(--skin-color);
-}
-
-.about .about-content .skills .skill-item .skill-percent {
-    position: absolute;
-    right: 0;
-    color: var(--text-black-900);
-    top: -40px;
-    font-weight: 400;
-    line-height: 40px;
 }
 
 .about .about-content .education, .about .about-content .experience {
@@ -544,13 +476,12 @@ h3.my-profession {
 }
 
 .portfolio .portfolio-item {
-    flex: 0 0 25%;
-    max-width: 25%;
+    flex: 0 0 33.33%;
+    max-width: 33.33;
     margin-bottom: 30px;
 }
 
 .portfolio .portfolio-item-inner {
-    border: 6px solid var(--bg-black-100);
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
@@ -568,13 +499,6 @@ h3.my-profession {
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
-}
-
-.contact-sub-title {
-    color: var(--text-black-900);
-    text-align: center;
-    font-size: 15px;
-    margin-bottom: 60px;
 }
 
 .contact .contact-info-item {

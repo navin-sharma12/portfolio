@@ -1,6 +1,33 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from 'emailjs-com';
 
 export default function Contact() {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        console.log("Service ID:", process.env.REACT_APP_EMAILJS_SERVICEID);
+        console.log("Template ID:", process.env.REACT_APP_EMAILJS_TEMPLATEID);
+        console.log("Public Key:", process.env.REACT_APP_EMAILJS_PUBLICKEY);
+
+        emailjs.sendForm(
+            process.env.REACT_APP_EMAILJS_SERVICEID,
+            process.env.REACT_APP_EMAILJS_TEMPLATEID,
+            form.current,
+            process.env.REACT_APP_EMAILJS_PUBLICKEY
+        )
+            .then((result) => {
+                console.log(result.text);
+                alert('Message sent successfully!');
+            }, (error) => {
+                console.log(error.text);
+                alert('Failed to send the message, please try again.');
+            });
+
+        e.target.reset();
+    };
+
     return (
         <div className="main-content">
             <div className="contact section">
@@ -11,7 +38,6 @@ export default function Contact() {
                         </div>
                     </div>
                     <h3 className="contact-title padd-15">Do you have any Questions ?</h3>
-                    <h4 className="contact-sub-title padd-15">I'm at your Service</h4>
                     <div className="row">
                         <div className="contact-info-item padd-15">
                             <div className="icon"><i className="fa fa-phone"></i></div>
@@ -39,39 +65,41 @@ export default function Contact() {
                         </a>
                     </div>
                     <h3 className="contact-title padd-15">Send me a email</h3>
-                    <h4 className="contact-sub-title padd-15">I'm very responsive to messages</h4>
                     <div className="row">
                         <div className="contact-form padd-15">
-                            <div className="row">
-                                <div className="form-item col-6 padd-15">
-                                    <div className="form-group">
-                                        <input type="text" className="form-control" placeholder="Name"></input>
+                            <form ref={form} onSubmit={sendEmail}>
+                                <div className="row">
+                                    <div className="form-item col-6 padd-15">
+                                        <div className="form-group">
+                                            <input type="text" name="from_name" className="form-control" placeholder="Name" required></input>
+                                        </div>
+                                    </div>
+                                    <div className="form-item col-6 padd-15">
+                                        <div className="form-group">
+                                            <input type="email" name="user_email" className="form-control" placeholder="Email" required></input>
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="form-item col-6 padd-15">
-                                    <div className="form-group">
-                                        <input type="email" className="form-control" placeholder="Email"></input>
+                                <div className="row">
+                                    <div className="form-item col-12 padd-15">
+                                        <div className="form-group">
+                                            <input type="text" name="subject" className="form-control" placeholder="Subject" required></input>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="row">
-                                <div className="form-item col-12 padd-15">
-                                    <div className="form-group">
-                                        <input type="text" className="form-control" placeholder="Subject"></input>
+                                <div className="row">
+                                    <div className="form-item col-12 padd-15">
+                                        <div className="form-group">
+                                            <textarea name="message" className="form-control" placeholder="Message" required></textarea>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="row">
-                                <div className="form-item col-12 padd-15">
-                                    <div className="form-group">
-                                        <textarea name="" className="form-control" id="" placeholder="Message"></textarea>
+                                <div className="row">
+                                    <div className="form-item col-12 padd-15">
+                                        <button type="submit" className="btn">Send Message</button>
                                     </div>
                                 </div>
-                            </div><div className="row">
-                                <div className="form-item col-12 padd-15">
-                                    <button type="submit" className="btn">Send Message</button>
-                                </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
