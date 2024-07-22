@@ -1,7 +1,40 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 export default function NavBar() {
     const [activeLink, setActiveLink] = useState('home');
+
+    // Update activeLink based on scroll position
+    const handleScroll = () => {
+        const sections = ['home', 'about', 'portfolio', 'contact'];
+        let currentSection = 'home';
+
+        sections.forEach(section => {
+            const element = document.getElementById(section);
+            if (element) {
+                const rect = element.getBoundingClientRect();
+                if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
+                    currentSection = section;
+                }
+            }
+        });
+
+        setActiveLink(currentSection);
+    };
+
+    // Add scroll event listener
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+
+        // Clean up the event listener on component unmount
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    // Set the initial active link when the component mounts
+    useEffect(() => {
+        setActiveLink('home');
+    }, []);
 
     const handleScrollTo = (id) => {
         document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
@@ -40,7 +73,7 @@ export default function NavBar() {
                         onClick={() => handleScrollTo('portfolio')} 
                         className={activeLink === 'portfolio' ? 'active' : ''}
                     >
-                        <i className="fa fa-briefcase"></i>Portfolio
+                        <i className="fa fa-laptop-code"></i>Portfolio
                     </a>
                 </li>
                 <li>
