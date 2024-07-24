@@ -56,7 +56,7 @@ export default function Contact() {
                                 <p>www.github.com/navin-sharma12</p>
                             </div>
                         </a>
-                        <a href="https://www.github.com/navin-sharma12" className="contact-info-item padd-15">
+                        <a href="https://www.linkedin.com/in/navin-sharma" className="contact-info-item padd-15">
                             <div>
                                 <div className="icon"><i className="fab fa-linkedin"></i></div>
                                 <h4>Linkedin</h4>
