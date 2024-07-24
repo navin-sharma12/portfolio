@@ -17,7 +17,7 @@ export default function About() {
                                     <h3>I am Navin Sharma a <span>Full Stack Software Engineer</span></h3>
                                     <p>A highly skilled developer with extensive software development experience,
                                         I deliver innovative solutions that enhance productivity and drive business success.
-                                        Proficient in Java, JavaScript, ReactJS, NodeJS, Cloud,
+                                        Proficient in Java, JavaScript, Python, MERN Stack, Cloud,
                                         and SQL, I excel in creating robust, scalable applications. Committed to
                                         leveraging my skills and experience, I develop cutting-edge solutions that
                                         exceed expectations and achieve measurable results
