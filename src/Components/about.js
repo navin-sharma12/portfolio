@@ -20,7 +20,7 @@ export default function About() {
                                         Proficient in Java, JavaScript, Python, MERN Stack, Cloud,
                                         and SQL, I excel in creating robust, scalable applications. Committed to
                                         leveraging my skills and experience, I develop cutting-edge solutions that
-                                        exceed expectations and achieve measurable results
+                                        exceed expectations and achieve measurable results.
                                     </p>
                                 </div>
                             </div>
