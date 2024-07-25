@@ -35,7 +35,8 @@ export default function About() {
                                                     <h3 className="timeline-date">
                                                         <i className="fa fa-calendar"></i> Sept 2022 - May 2024
                                                     </h3>
-                                                    <h4 className="timeline-title">Master of Science in Information Sytems</h4>
+                                                    <h4 className="timeline-title">Master of Science in Information Systems</h4>
+                                                    <p>Northeastern University</p>
                                                 </div>
                                                 <div className="timeline-item">
                                                     <div className="circle-dot"></div>
@@ -43,6 +44,7 @@ export default function About() {
                                                         <i className="fa fa-calendar"></i> Aug 2015 - May 2019
                                                     </h3>
                                                     <h4 className="timeline-title">Bachelor of Engineering in Computer Engineering</h4>
+                                                    <p>University of Mumbai</p>
                                                 </div>
                                             </div>
                                         </div>
