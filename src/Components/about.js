@@ -67,14 +67,14 @@ export default function About() {
                                                     <h3 className="timeline-date">
                                                         <i className="fa fa-calendar"></i> Mar 2021 - Jul 2022
                                                     </h3>
-                                                    <h4 className="timeline-title">Software Engineer - Automation at QualityKiosk Technologies</h4>
+                                                    <h4 className="timeline-title">Engineer at QualityKiosk Technologies</h4>
                                                 </div>
                                                 <div className="timeline-item">
                                                     <div className="circle-dot"></div>
                                                     <h3 className="timeline-date">
                                                         <i className="fa fa-calendar"></i> Jun 2019 - Feb 2021
                                                     </h3>
-                                                    <h4 className="timeline-title">Software developer - Automation at Second Machine Age</h4>
+                                                    <h4 className="timeline-title">Developer at Second Machine Age</h4>
                                                 </div>
                                             </div>
                                         </div>

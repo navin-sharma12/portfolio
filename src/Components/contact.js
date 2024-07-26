@@ -76,7 +76,7 @@ export default function Contact() {
                                     </div>
                                     <div className="form-item col-6 padd-15">
                                         <div className="form-group">
-                                            <input type="email" name="user_email" className="form-control" placeholder="Email" required></input>
+                                            <input type="email" name="reply_to" className="form-control" placeholder="Email" required></input>
                                         </div>
                                     </div>
                                 </div>
