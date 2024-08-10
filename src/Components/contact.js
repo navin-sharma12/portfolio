@@ -42,12 +42,12 @@ export default function Contact() {
                         <div className="contact-info-item padd-15">
                             <div className="icon"><i className="fa fa-phone"></i></div>
                             <h4>Call Me On</h4>
-                            <p>+1(617)961-9878</p>
+                            <p>+1(857)228-8990</p>
                         </div>
                         <div className="contact-info-item padd-15">
                             <div className="icon"><i className="fa fa-envelope"></i></div>
                             <h4>Email</h4>
-                            <p>navinsharmar@gmail.com</p>
+                            <p>navinravikantsharma@gmail.com</p>
                         </div>
                         <a href="https://www.github.com/navin-sharma12" className="contact-info-item padd-15">
                             <div>

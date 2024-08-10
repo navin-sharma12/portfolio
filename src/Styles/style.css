@@ -415,6 +415,10 @@ h3.my-profession {
     padding-bottom: 50px;
 }
 
+.about .about-content .timeline .timeline-item p {
+    color: var(--text-black-900);
+}
+
 .about .about-content .timeline .timeline-item:last-child {
     padding-bottom: 0;
 }
