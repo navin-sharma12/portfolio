@@ -14,13 +14,13 @@ export default function About() {
                         <div className="about-content padd-15">
                             <div className="row">
                                 <div className="about-text padd-15">
-                                    <h3>I am Navin Sharma a <span>Full Stack Software Engineer</span></h3>
+                                    <h3>I am Navin Sharma a <span>Full Stack Developer</span></h3>
                                     <p>A highly skilled developer with extensive software development experience,
                                         I deliver innovative solutions that enhance productivity and drive business success.
                                         Proficient in Java, JavaScript, Python, MERN Stack, Cloud,
                                         and SQL, I excel in creating robust, scalable applications. Committed to
                                         leveraging my skills and experience, I develop cutting-edge solutions that
-                                        exceed expectations and achieve measurable results
+                                        exceed expectations and achieve measurable results.
                                     </p>
                                 </div>
                             </div>
@@ -35,7 +35,8 @@ export default function About() {
                                                     <h3 className="timeline-date">
                                                         <i className="fa fa-calendar"></i> Sept 2022 - May 2024
                                                     </h3>
-                                                    <h4 className="timeline-title">Master of Science in Information Sytems</h4>
+                                                    <h4 className="timeline-title">Master of Science in Information Systems</h4>
+                                                    <p>Northeastern University</p>
                                                 </div>
                                                 <div className="timeline-item">
                                                     <div className="circle-dot"></div>
@@ -43,6 +44,7 @@ export default function About() {
                                                         <i className="fa fa-calendar"></i> Aug 2015 - May 2019
                                                     </h3>
                                                     <h4 className="timeline-title">Bachelor of Engineering in Computer Engineering</h4>
+                                                    <p>University of Mumbai</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -53,6 +55,13 @@ export default function About() {
                                     <div className="row">
                                         <div className="timeline-box padd-15">
                                             <div className="timeline shadow-dark">
+                                            <div className="timeline-item">
+                                                    <div className="circle-dot"></div>
+                                                    <h3 className="timeline-date">
+                                                        <i className="fa fa-calendar"></i> Jul 2024 - Present
+                                                    </h3>
+                                                    <h4 className="timeline-title">Full Stack Developer at Profound AI Solutions LLC</h4>
+                                                </div>
                                                 <div className="timeline-item">
                                                     <div className="circle-dot"></div>
                                                     <h3 className="timeline-date">
@@ -65,14 +74,14 @@ export default function About() {
                                                     <h3 className="timeline-date">
                                                         <i className="fa fa-calendar"></i> Mar 2021 - Jul 2022
                                                     </h3>
-                                                    <h4 className="timeline-title">Software Engineer - Automation at QualityKiosk Technologies</h4>
+                                                    <h4 className="timeline-title">Engineer at QualityKiosk Technologies</h4>
                                                 </div>
                                                 <div className="timeline-item">
                                                     <div className="circle-dot"></div>
                                                     <h3 className="timeline-date">
                                                         <i className="fa fa-calendar"></i> Jun 2019 - Feb 2021
                                                     </h3>
-                                                    <h4 className="timeline-title">Software developer - Automation at Second Machine Age</h4>
+                                                    <h4 className="timeline-title">Developer at Second Machine Age</h4>
                                                 </div>
                                             </div>
                                         </div>

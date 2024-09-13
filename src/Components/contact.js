@@ -42,12 +42,12 @@ export default function Contact() {
                         <div className="contact-info-item padd-15">
                             <div className="icon"><i className="fa fa-phone"></i></div>
                             <h4>Call Me On</h4>
-                            <p>+1(617)961-9878</p>
+                            <p>+1(857)228-8990</p>
                         </div>
                         <div className="contact-info-item padd-15">
                             <div className="icon"><i className="fa fa-envelope"></i></div>
                             <h4>Email</h4>
-                            <p>navinsharmar@gmail.com</p>
+                            <p>navinravikantsharma@gmail.com</p>
                         </div>
                         <a href="https://www.github.com/navin-sharma12" className="contact-info-item padd-15">
                             <div>
@@ -56,7 +56,7 @@ export default function Contact() {
                                 <p>www.github.com/navin-sharma12</p>
                             </div>
                         </a>
-                        <a href="https://www.github.com/navin-sharma12" className="contact-info-item padd-15">
+                        <a href="https://www.linkedin.com/in/navin-sharma" className="contact-info-item padd-15">
                             <div>
                                 <div className="icon"><i className="fab fa-linkedin"></i></div>
                                 <h4>Linkedin</h4>
@@ -76,7 +76,7 @@ export default function Contact() {
                                     </div>
                                     <div className="form-item col-6 padd-15">
                                         <div className="form-group">
-                                            <input type="email" name="user_email" className="form-control" placeholder="Email" required></input>
+                                            <input type="email" name="reply_to" className="form-control" placeholder="Email" required></input>
                                         </div>
                                     </div>
                                 </div>

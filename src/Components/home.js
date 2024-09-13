@@ -9,10 +9,10 @@ export default function Home() {
                     <div className="row">
                         <div className="home-info padd-15">
                             <h3 className="hello"> Hello, my name is <span className="name">Navin Sharma</span></h3>
-                            <h3 className="my-profession">I'm a <span className="typing">Full Stack Software Engineer</span></h3>
+                            <h3 className="my-profession">I'm a <span className="typing">Full Stack Developer</span></h3>
                             <div className="personal-info">
                                 <div className="buttons">
-                                    <a href="/Resume/Resume.pdf" download="Navin_Sharma_Resume.pdf" className="btn">Download Resume</a>
+                                    <a href="/Resume/Navin Ravikant Sharma.pdf" download="Navin_Sharma_Resume.pdf" className="btn">Download Resume</a>
                                     <a href="#contact" className="btn hire-me">Hire Me</a>
                                 </div>
                             </div>
